@@ -58,10 +58,10 @@ function App() {
           </ul>
           <div>
             <a href="https://github.com/stevenvicino">
-              <img className="w-100" src={github} />
+              <img className="w-100" src={github} alt="github" />
             </a>
             <a href="https://www.linkedin.com/in/steven-vicino-software-developer/">
-              <img className="w-100" src={linkedIn} />
+              <img className="w-100" src={linkedIn} alt="Linkedin" />
             </a>
           </div>
         </nav>
