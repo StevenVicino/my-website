@@ -43,8 +43,11 @@ function Contact() {
             <div id="letter">!</div>
           </h1>
           <h4 id="styled-paragraph-about">
-            Get in touch via the form, or by emailing me at{" "}
-            <a href="mailto:stevenvicino@gmail.com">stevenvicino@gmail.com</a>.
+            Get in touch via the form, or by emailing me at&nbsp;
+            <a href="mailto:stevenvicino@gmail.com" id="light-blue">
+              stevenvicino@gmail.com
+            </a>
+            .
           </h4>
           <form className="d-flex flex-column" onSubmit={onSubmit}>
             <input
@@ -58,7 +61,7 @@ function Contact() {
             <input
               type="text"
               name="to_name"
-              placeholder="To Name"
+              placeholder="Steven Vicino"
               value={toSend.to_name}
               onChange={handleChange}
               id="input-box"
@@ -66,7 +69,7 @@ function Contact() {
             <textarea
               type="text"
               name="message"
-              placeholder="Your Message"
+              placeholder="Hey, let's work together!"
               value={toSend.message}
               onChange={handleChange}
               id="input-box"

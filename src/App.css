@@ -6,10 +6,18 @@
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
 }
+
+h2{
+  font-size:2.5vw;
+}
+
+#light-blue{
+  color:lightskyblue
+}
 /* ---- Sidebar --- */
 
 #sidebar {
-  width: 125px;
+  width: 8vw;
   min-height: 100vh;
 }
 
@@ -18,7 +26,7 @@
 }
 
 #nav-title {
-  font-size: 1rem;
+  font-size: 1vw;
   text-align: center;
 }
 
@@ -29,6 +37,7 @@ nav {
 }
 
 #nav-link{
+  font-size: 1vw;
   color:lightskyblue
 }
 
@@ -52,7 +61,7 @@ nav {
 #styled-heading {
   display: flex;
   justify-content: center;
-  font-size: 3.5rem;
+  font-size: 4.5vw;
   color: aliceblue;
 }
 
@@ -91,7 +100,7 @@ nav {
   box-shadow: rgba(0,0,0,1) 0 1px 0;
   text-shadow: rgba(0,0,0,.4) 0 1px 0;
   color: white;
-  font-size: 24px;
+  font-size: 3vw;
   font-family: Georgia, serif;
   text-decoration: none;
   vertical-align: middle;
@@ -109,19 +118,19 @@ nav {
   /* ---- About ----  */
 
   #styled-paragraph{
-    font-size: 1rem;
+    font-size: 1.5vw;
     color: white;
   }
 
   #styled-paragraph-about{
     display: flex;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 1.5vw;
     color: white;
   }
 
   #styled-ending{
-    font-size: 1rem;
+    font-size: 1.5vw;
     color: rgb(17, 222, 99)
   }
 
@@ -129,7 +138,7 @@ nav {
 #styled-heading-about {
   display: flex;
   justify-content: center;
-  font-size: 3.5rem;
+  font-size: 3vw;
   color: rgb(17, 222, 99);
 }
 
@@ -156,6 +165,9 @@ margin-top:0.5em;
 }
 
 #input-button{
+  align-self: center;
+  width: 80%;
+  font-size: 2vw;
   background-color:  #35617f;
   color: white;
   border: 2px solid #fff;
@@ -241,7 +253,7 @@ margin-top:0.5em;
 #h1 {
   color: #333;
   font-family: tahoma;
-  font-size: 3rem;
+  font-size: 3.25vw;
   font-weight: 100;
   line-height: 1.5;
   text-transform: uppercase;
@@ -474,16 +486,18 @@ margin-top:0.5em;
 }
 
 .slide-title {
+  font-size:3vw;
   margin-bottom: 20px;
-  font-size: 36px;
   color: rgb(17, 222, 99);
 }
 
 .slide-text {
+  font-size:1.5vw;
   margin-bottom: 20px;
 }
 
 .slide-link {
+  font-size:2vw;
   display: inline-block;
   padding: 10px 20px;
   color: #fff;
@@ -779,3 +793,47 @@ margin-top:0.5em;
   }
 }
 
+/* --- media query  smaller than 1025px --- */
+@media screen and (max-width: 1025px){
+  .wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    background: linear-gradient(-45deg, #7c341d, #691233, #0e5d79, #0e7c62);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+
+#sidebar {
+  width: 8vw;
+  min-height: 100vh;
+}
+
+#headshot-me {
+  width: 100%;
+}
+
+#nav-title {
+  font-size: 1vw;
+  text-align: center;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  background-image: url("./images/night-sky.avif");
+}
+
+#nav-link{
+  font-size: 1vw;
+  color:lightskyblue
+}
+
+#nav-link:hover{
+  color: darkblue !important;
+}
+
+#menu{
+  margin-top: 5em;
+}
+}

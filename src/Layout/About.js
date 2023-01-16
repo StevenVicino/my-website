@@ -5,7 +5,7 @@ function About() {
     <div className="container min-vh-100">
       <div className="row min-vh-100 justify-content center align-items-center">
         <div className="col-5" id="text-box">
-          <h1 id="styled-heading-about">Me, Myself and I</h1>
+          <h1 id="styled-heading-about">Me, Myself, and I</h1>
           <p id="styled-paragraph">
             I'm a web developer located in Valley Stream, NY. I'm passionate
             about making great websites, apps and more!

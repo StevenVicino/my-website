@@ -6,7 +6,7 @@ function Homepage() {
     <div className="container" id="homepage">
       <div className="text-center vertical-center" id="backlight">
         <h1 id="styled-heading">
-          <div id="letter 3-d">H</div>
+          <div id="letter">H</div>
           <div id="letter">i</div>
           <div id="letter">!</div>
         </h1>
