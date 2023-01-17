@@ -49,6 +49,7 @@ function Homepage() {
           <div id="letter">c</div>
           <div id="letter">e</div>
         </h1>
+        <h5>(Mobile Version Coming Soon)</h5>
         <Link to="/contact" id="contact-link">
           Contact Me!
         </Link>
