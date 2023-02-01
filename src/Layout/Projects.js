@@ -36,12 +36,12 @@ function Projects() {
             <p className="slide-text">
               Technology Used: React, Node.js, Express, Knex and PostgreSQL.
             </p>
-            <a
+            {/* <a
               href="https://starter-restaurant-reservation-0k9h.onrender.com/dashboard"
               className="slide-link"
             >
               Live Demo
-            </a>
+            </a> */}
             <a
               href="https://github.com/StevenVicino/starter-restaurant-reservation"
               className="slide-link"
@@ -68,12 +68,12 @@ function Projects() {
               Technology Used: JavaScript, React, Express, Knex, HTML and CSS.
               Progress/Versions tracked with Git.
             </p>
-            <a
+            {/* <a
               href="https://flashcard-nbay.onrender.com/"
               className="slide-link"
             >
               Live Demo
-            </a>
+            </a> */}
             <a
               href="https://github.com/StevenVicino/flash-card-app"
               className="slide-link"
@@ -99,12 +99,12 @@ function Projects() {
               Technology Used: Node.js, Express, and Knex. Version control with
               Git.
             </p>
-            <a
+            {/* <a
               href="https://we-love-movies-front-end.onrender.com/"
               className="slide-link"
             >
               Live Demo
-            </a>
+            </a> */}
             <a
               href="https://github.com/StevenVicino/we-love-movies"
               className="slide-link"
@@ -129,9 +129,9 @@ function Projects() {
               Technology Used: JavaScript ES6, HTML5, Node.js, Bootstrap, Mocha,
               Chai.
             </p>
-            <a href="https://decoder-ring.onrender.com/" className="slide-link">
+            {/* <a href="https://decoder-ring.onrender.com/" className="slide-link">
               Live Demo
-            </a>
+            </a> */}
             <a
               href="https://github.com/StevenVicino/Decoder-Ring"
               className="slide-link"
