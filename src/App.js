@@ -56,12 +56,12 @@ function App() {
               </Link>
             </li>
           </ul>
-          <div>
+          <div className="nav-icons">
             <a href="https://github.com/stevenvicino">
-              <img className="w-100" src={github} alt="github" />
+              <img className="w-50" src={github} alt="github" />
             </a>
             <a href="https://www.linkedin.com/in/steven-vicino-software-developer/">
-              <img className="w-100" src={linkedIn} alt="Linkedin" />
+              <img className="w-50" src={linkedIn} alt="Linkedin" />
             </a>
           </div>
         </nav>

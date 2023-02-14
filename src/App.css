@@ -4,7 +4,7 @@
   align-items: stretch;
   background: linear-gradient(-45deg, #7c341d, #691233, #0e5d79, #0e7c62);
   background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
+  animation: gradient 15s ease infinite;
 }
 
 h2{
@@ -36,13 +36,19 @@ nav {
   background-image: url("./images/night-sky.avif");
 }
 
+.nav-icons {
+  position: absolute;
+  bottom: 8vw;
+  width: 7.5vw;
+}
+
 #nav-link{
   font-size: 1vw;
   color:lightskyblue
 }
 
 #nav-link:hover{
-  color: darkblue !important;
+  color: rgb(231, 156, 27) !important;
 }
 
 #menu{

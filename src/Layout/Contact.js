@@ -53,24 +53,8 @@ function Contact() {
             <input
               type="text"
               name="from_name"
-              placeholder="From Name"
+              placeholder="Your Name"
               value={toSend.from_name}
-              onChange={handleChange}
-              id="input-box"
-            />
-            <input
-              type="text"
-              name="to_name"
-              placeholder="Steven Vicino"
-              value={toSend.to_name}
-              onChange={handleChange}
-              id="input-box"
-            />
-            <textarea
-              type="text"
-              name="message"
-              placeholder="Hey, let's work together!"
-              value={toSend.message}
               onChange={handleChange}
               id="input-box"
             />
@@ -80,6 +64,21 @@ function Contact() {
               placeholder="Your Email"
               value={toSend.reply_to}
               onChange={handleChange}
+              id="input-box"
+            />
+            <textarea
+              type="text"
+              name="message"
+              placeholder="Your message, for example: Hey, let's work together!"
+              value={toSend.message}
+              onChange={handleChange}
+              id="input-box"
+            />
+            <input
+              type="text"
+              name="to_name"
+              placeholder="Steven Vicino"
+              value={"Steven Vicino"}
               id="input-box"
             />
             <button type="submit" id="input-button">

@@ -66,7 +66,7 @@ function Experience() {
                 id="styled-paragraph"
               >
                 <li>
-                  <h2>Front End</h2>
+                  <h3>Front-End</h3>
                 </li>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -80,7 +80,7 @@ function Experience() {
                 id="styled-paragraph"
               >
                 <li>
-                  <h2>Back End</h2>
+                  <h3>Back-End</h3>
                 </li>
                 <li>Node.js</li>
                 <li>Express</li>
@@ -93,7 +93,7 @@ function Experience() {
                 id="styled-paragraph"
               >
                 <li>
-                  <h2>Tools</h2>
+                  <h3>Tools</h3>
                 </li>
                 <li>Mocha</li>
                 <li>Chai</li>
