@@ -1,4 +1,19 @@
 import resume from "../images/Steven-Vicino-Resume.pdf";
+import html from "../images/html-50.png";
+import css from "../images/css-50.png";
+import js from "../images/javascript-50.png";
+import reactImage from "../images/react-48.png";
+import jquery from "../images/jquery-50.png";
+import nodeJs from "../images/node-js-48.png";
+import express from "../images/express-js-50.png";
+import restApi from "../images/rest-api-50.png";
+import postgreSql from "../images/postgresql-50.png";
+import typescript from "../images/typescript-50.png";
+import mocha from "../images/mocha-1.png";
+import chai from "../images/chai-js.png";
+import jest from "../images/jest.png";
+import vsc from "../images/visual-studio-code-50.png";
+import npm from "../images/npm-50.png";
 import React, { useState } from "react";
 
 function Experience() {
@@ -40,7 +55,7 @@ function Experience() {
         >
           {button}
         </button>
-        <div className="col-6 align-self-start" id="text-box">
+        <div className="row align-self-start" id="text-box">
           <h1 id="styled-heading-about">Experience</h1>
           <p id="styled-paragraph">
             Recently, I have graduated as a software engineering student from
@@ -55,7 +70,7 @@ function Experience() {
             needs of a company.
           </p>
         </div>
-        <div className="col-5 align-self-start" id="text-box">
+        <div className="row align-self-start" id="text-box">
           <div className="container">
             <div className="row justify-content center ">
               <h1 id="styled-heading-about">Skills</h1>
@@ -66,13 +81,24 @@ function Experience() {
                 id="styled-paragraph"
               >
                 <li>
-                  <h3>Front-End</h3>
+                  <h2 id="skills-title">Front-End</h2>
                 </li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>jQuery</li>
+                <li id="skills-item">
+                  <img src={html} alt="html" id="logo" /> HTML
+                </li>
+                <li id="skills-item">
+                  <img src={css} alt="css" id="logo" /> CSS
+                </li>
+                <li id="skills-item">
+                  <img src={js} alt="js" id="logo" /> Javascript
+                </li>
+                <li id="skills-item">
+                  {" "}
+                  <img src={reactImage} alt="react" id="logo" /> React
+                </li>
+                <li id="skills-item">
+                  <img src={jquery} alt="jQuery" id="logo" /> jQuery
+                </li>
                 <li> &nbsp;</li>
               </ul>
               <ul
@@ -80,26 +106,50 @@ function Experience() {
                 id="styled-paragraph"
               >
                 <li>
-                  <h3>Back-End</h3>
+                  <h2 id="skills-title">Back-End</h2>
                 </li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>Restful Apis</li>
-                <li>PostgreSQL</li>
-                <li>Typescript</li>
+                <li id="skills-item">
+                  <img src={nodeJs} alt="nodeJs" id="logo" /> Node.js
+                </li>
+                <li id="skills-item">
+                  <img src={express} alt="express" id="logo" /> Express
+                </li>
+                <li id="skills-item">
+                  <img src={restApi} alt="restAPI" id="logo" />
+                  Restful APIs
+                </li>
+                <li id="skills-item">
+                  <img src={postgreSql} alt="postgresSql" id="logo" />{" "}
+                  PostgreSQL
+                </li>
+                <li id="skills-item">
+                  <img src={typescript} alt="typescript" id="logo" /> Typescript
+                </li>
               </ul>
               <ul
                 className="col-4 list-unstyled components"
                 id="styled-paragraph"
               >
                 <li>
-                  <h3>Tools</h3>
+                  <h2 id="skills-title">Tools</h2>
                 </li>
-                <li>Mocha</li>
-                <li>Chai</li>
-                <li>Jest</li>
-                <li>Knex</li>
-                <li>NPM</li>
+                <li id="skills-item">
+                  <img src={mocha} alt="mocha" id="logo" /> Mocha
+                </li>
+                <li id="skills-item">
+                  <img src={chai} alt="chai" id="logo" /> Chai
+                </li>
+                <li id="skills-item">
+                  <img src={jest} alt="jest" id="logo" /> Jest
+                </li>
+                <li id="skills-item">
+                  <img src={vsc} alt="visual-studio-code" id="logo" /> Visual
+                  Studio Code
+                </li>
+                <li id="skills-item">
+                  <img src={npm} alt="node-package-manager" id="logo" /> &nbsp;
+                  NPM
+                </li>
               </ul>
             </div>
           </div>
