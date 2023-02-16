@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
     <div className="container min-vh-100">
-      <div className="row min-vh-100 justify-content center align-items-center">
-        <div className="col-5" id="text-box">
+      <div className="row min-vh-100 justify-content-center align-items-center">
+        <div className="row w-85" id="text-box">
           <h1 id="styled-heading-about">Me, Myself, and I</h1>
           <p id="styled-paragraph">
             I'm a web developer located in Valley Stream, NY. I'm passionate
@@ -22,7 +23,17 @@ function About() {
           </p>
           <p id="styled-ending">Together, let's make something awesome!</p>
         </div>
-        <div className="col-6" id="styled-heading-about message-body">
+        <button
+          className="w-75 justify-self-center"
+          type="button"
+          id="input-button"
+        >
+          <Link to="/Experience">See All Skills</Link>
+        </button>
+        <div
+          className="row justify-content-center"
+          id="styled-heading-about message-body"
+        >
           <h1 id="h1">
             <span id="h1-span">I Love</span>
             <div className="message">

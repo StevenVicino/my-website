@@ -6,6 +6,14 @@
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
+a{
+  color:white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:white;
+}
 
 h2{
   font-size:2.5vw;
@@ -144,6 +152,7 @@ nav {
 #styled-heading-about {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 3vw;
   color: rgb(17, 222, 99);
 }
@@ -158,7 +167,7 @@ nav {
 
 #full-picture{
   width:100%;
-  height: 100vh;
+  height: 90vh;
 }
 /* --- Skills and Experiences --- */
 
@@ -181,7 +190,7 @@ nav {
 }
 
 #logo{
-  width: 20%;
+  width: 16%;
 }
 /* --- Skills and Experiences --- */
 /* --- Contact --- */
@@ -294,8 +303,7 @@ margin-top:0.5em;
 }
 
 #h1-span {
-  font-size: 3rem;
-  margin-left: 2em;
+  font-size: 3.1vw;
   color:white;
 }
 
@@ -303,13 +311,13 @@ margin-top:0.5em;
   background-color: yellow;
   color: #333;
   display: block;
-  font-size: 48px;
+  font-size: 3.1vw;
   font-weight: 900;
   overflow: hidden;
   position: absolute;
   padding-left: 0.5rem;
   top: 0.2rem;
-  left: 270px;
+  left: 12vw;
   animation: openclose 10s ease-in-out infinite;
 }
 
@@ -319,7 +327,7 @@ margin-top:0.5em;
 
 @keyframes openclose {
   0% {
-    top: 0.2rem;
+    top: 0.2vw;
     width: 0;
   }
   5% {
@@ -329,49 +337,49 @@ margin-top:0.5em;
     width: 100%;
   }
   30% {
-    top: 0.2rem;
+    top: 0.2vw;
     width: 100%;
   }
   33% {
-    top: 0.2rem;
+    top: 0.2vw;
     width: 0;
   }
   35% {
-    top: 0.2rem;
+    top: 0.2vw;
     width: 0;
   }
   38% {
-    top: -4.5rem;
+    top: -4.7vw;
     
   }
   48% {
-    top: -4.5rem;
+    top: -4.7vw;
     width:100%;
   }
   62% {
-    top: -4.5rem;
+    top: -4.7vw;
     width: 100%;
   }
   66% {
-    top: -4.5rem;
+    top: -4.7vw;
     width: 0;
     text-indent: 0;
   }
   71% {
-    top: -9rem;
+    top: -9.4vw;
     width: 0;
     text-indent: 5px;
   }
   86% {
-    top: -9rem;
+    top: -9.4vw;
     width: 100%;
   }
   95% {
-    top: -9rem;
+    top: -9.4vw;
     width: 100%;
   }
   98% {
-    top: -9rem;
+    top: -9.4vw;
     width: 0;
     text-indent: 5px;
   }
@@ -825,7 +833,7 @@ margin-top:0.5em;
 }
 
 /* --- media query  smaller than 1025px --- */
-@media screen and (max-width: 1025px){
+/* @media screen and (max-width: 1025px){
   .wrapper {
     display: flex;
     width: 100%;
@@ -867,4 +875,4 @@ nav {
 #menu{
   margin-top: 5em;
 }
-}
+} */

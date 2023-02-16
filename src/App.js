@@ -8,6 +8,7 @@ import About from "./Layout/About";
 import Experience from "./Layout/Experience";
 import Projects from "./Layout/Projects";
 import Contact from "./Layout/Contact";
+import Resume from "./Layout/Resume";
 import trail from "./Utils/neon";
 
 function App() {
@@ -46,6 +47,11 @@ function App() {
               </Link>
             </li>
             <li>
+              <Link id="nav-link" to="/Resume">
+                Resume
+              </Link>
+            </li>
+            <li>
               <Link id="nav-link" to="/Projects">
                 Projects
               </Link>
@@ -71,6 +77,7 @@ function App() {
           <Route path="/Experience" element={<Experience />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Resume" element={<Resume />} />
         </Routes>
       </Router>
       <script src={trail}></script>
