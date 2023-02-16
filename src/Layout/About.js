@@ -23,13 +23,13 @@ function About() {
           </p>
           <p id="styled-ending">Together, let's make something awesome!</p>
         </div>
-        <button
-          className="w-75 justify-self-center"
-          type="button"
+        <Link
+          to="/Experience"
+          className="w-75 justify-self-center text-center"
           id="input-button"
         >
-          <Link to="/Experience">See All Skills</Link>
-        </button>
+          See All Skills
+        </Link>
         <div
           className="row justify-content-center"
           id="styled-heading-about message-body"

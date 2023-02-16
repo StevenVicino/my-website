@@ -195,6 +195,10 @@ nav {
 /* --- Skills and Experiences --- */
 /* --- Contact --- */
 
+input[type=text], textarea{
+  font-size: 1.5vw;
+}
+
 #input-box{
   background-color: black;
   color: white;
@@ -212,6 +216,16 @@ margin-top:0.5em;
   border: 2px solid #fff;
   border-radius: 5px;
 margin-top:0.5em;
+cursor: pointer;
+box-shadow: 0 .5vw 1vw #193047;
+transition-duration: 0.4s;
+overflow: hidden;
+}
+
+#input-button:hover{
+  background: #fff;
+  box-shadow: 0px .5vw 1vw .5vw #35617f;
+  color: #000;
 }
 
 /* --- Contact --- */
@@ -431,7 +445,7 @@ margin-top:0.5em;
 
 .slider {
   position: relative;
-  width: 60em;
+  width: 80%;
   margin: 50px auto;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
     0 3px 1px -2px rgba(0, 0, 0, 0.2);
@@ -472,7 +486,7 @@ margin-top:0.5em;
   width: 20px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: #212121;
+  background-color: #c7c0c0;
   transition: background-color 0.2s linear;
 }
 
@@ -525,25 +539,26 @@ margin-top:0.5em;
 }
 
 .slide-title {
-  font-size:3vw;
-  margin-bottom: 20px;
+  font-size:2vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
   color: rgb(17, 222, 99);
 }
 
 .slide-text {
-  font-size:1.5vw;
+  font-size:1vw;
   margin-bottom: 20px;
 }
 
 .slide-link {
-  font-size:2vw;
+  font-size:1.5vw;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 1vw 1.5vw;
   color: #fff;
   border-radius: 3px;
   text-decoration: none;
   background-color: #ff4081;
-  margin-right: 1em;
+  margin-bottom: 1vw;
 }
 
 .slide-image img {
@@ -833,46 +848,11 @@ margin-top:0.5em;
 }
 
 /* --- media query  smaller than 1025px --- */
-/* @media screen and (max-width: 1025px){
-  .wrapper {
-    display: flex;
-    width: 100%;
-    align-items: stretch;
-    background: linear-gradient(-45deg, #7c341d, #691233, #0e5d79, #0e7c62);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+@media screen and (max-width: 1025px){
+  .letter-image {
+    display: none !important;
   }
-
-#sidebar {
-  width: 8vw;
-  min-height: 100vh;
+  .contact-box {
+    width: 80%;
+  }
 }
-
-#headshot-me {
-  width: 100%;
-}
-
-#nav-title {
-  font-size: 1vw;
-  text-align: center;
-}
-
-nav {
-  display: block;
-  text-align: center;
-  background-image: url("./images/night-sky.avif");
-}
-
-#nav-link{
-  font-size: 1vw;
-  color:lightskyblue
-}
-
-#nav-link:hover{
-  color: darkblue !important;
-}
-
-#menu{
-  margin-top: 5em;
-}
-} */

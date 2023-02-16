@@ -29,7 +29,7 @@ function Contact() {
   return (
     <div className="container">
       <div className="row align-items-center">
-        <div className="col-7 vertical-center">
+        <div className="col-7 vertical-center contact-box">
           <h1 id="styled-heading-about">
             <div id="letter">L</div>
             <div id="letter">e</div>
