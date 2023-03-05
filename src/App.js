@@ -61,6 +61,14 @@ function App() {
                 Contact
               </Link>
             </li>
+            <li>
+              <a
+                id="nav-link"
+                href="https://main--svicino-blog.netlify.app/category/webdev"
+              >
+                Blog
+              </a>
+            </li>
           </ul>
           <div className="nav-icons">
             <a href="https://github.com/stevenvicino">
